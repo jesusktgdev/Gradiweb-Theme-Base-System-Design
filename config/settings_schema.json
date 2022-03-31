@@ -152,6 +152,18 @@
         "info": "Enter the colour information as in the example. Ex: Black:#000",
         "default": "Black:#000;<br />Green:#14D66F;<br />Gray:#C4C4C4;",
         "placeholder": "Colour:#hex<Linefeed>\n\nExample:\nWhite:#fff\nBlack:#000\n..."
+      },
+      {
+        "id": "gy_color_base",
+        "type": "color",
+        "label": "Gy color base",
+        "default": "#0084FF"
+      },
+      {
+        "id": "gy_color_base_text",
+        "type": "color",
+        "label": "Gy color text",
+        "default": "#2D2D2D"
       }
     ]
   },

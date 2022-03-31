@@ -1,0 +1,4 @@
+@mixin makeGrid($cols) {
+    $width: $gy-width / $cols;
+    width: $width;
+}

@@ -1,0 +1,13 @@
+.gy-grid {
+    display: flex;
+    column-gap: $gy-columns-gap;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+@for $i from 1 through $gy-num-cols {
+    .gy-grid-item-#{$i} {
+        max-width: ( $gy-width / ( $gy-num-cols / $i) ) * 1%;
+        flex: 0 0 ( $gy-width / ( $gy-num-cols / $i) ) * 1%;
+    }
+}
